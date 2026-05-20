@@ -13,7 +13,7 @@ def get_current_user_clerk_id(request: Request):
         # request_state = JWT Token
         request_state = sdk.authenticate_request(
             request,
-            options=AuthenticateRequestOptions(authorized_parties=appConfig["domain"]),
+            options=AuthenticateRequestOptions(authorized_parties=[appConfig["domain"]]),
         )
 
         if not request_state.is_signed_in:
@@ -26,8 +26,10 @@ def get_current_user_clerk_id(request: Request):
 
         return clerk_id
 
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(
             status_code=500,
-            detail=f"Clerk SDK Failed. {str(e)}",
+            detail=f"Clerk authentication failed: {str(e)}",
         )
