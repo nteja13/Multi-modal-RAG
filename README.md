@@ -1,5 +1,8 @@
 ## 📋 Prerequisites
 
+<img width="2240" height="906" alt="image" src="https://github.com/user-attachments/assets/7bda9440-f274-43bc-be7a-3931f30dc707" />
+
+
 Before you start, make sure you have these installed:
 
 - 🐍 **Python 3.10+** (check with `python --version`)
