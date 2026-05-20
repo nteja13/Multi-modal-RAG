@@ -1,7 +1,18 @@
-## 📋 Prerequisites
+## 💻 Local-Setup Architecture
+
+<img width="1680" height="1170" alt="image" src="https://github.com/user-attachments/assets/a950876d-ad1e-461e-99c5-090b7c2b9c4d" />
+
+### RAG Pipelines
 
 <img width="2240" height="906" alt="image" src="https://github.com/user-attachments/assets/7bda9440-f274-43bc-be7a-3931f30dc707" />
 
+<img width="1836" height="700" alt="image" src="https://github.com/user-attachments/assets/d362a81a-9adb-4af5-9df0-c86bdd0e1a9e" />
+
+<img width="1558" height="618" alt="image" src="https://github.com/user-attachments/assets/19b52cca-d6e5-4bcd-83ac-1476642255d1" />
+
+
+
+## 📋 Prerequisites
 
 Before you start, make sure you have these installed:
 
